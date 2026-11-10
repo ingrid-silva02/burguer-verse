@@ -40,8 +40,8 @@
 /* 2 */
 
 *,
-*::after,
-*::before{
+*::before,
+*::after {
 
     margin: 0;
     padding: 0;
@@ -49,7 +49,7 @@
 }
 
 html{ font-size: 62.5%;
-    scroll-behavior: smooth;
+      scroll-behavior: smooth;
 
 }
 
@@ -62,7 +62,7 @@ body{
 
 /* Imagens responsivas sem ultrapassar o container */
 img,picture{ max-width: 100%;
-                display: block;
+            display: block;
             height: auto;}
 
 /* Herença de tipografia para entender entradas de texto e botoões */
